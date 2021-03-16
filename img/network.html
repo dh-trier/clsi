@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f43ed1703d94017b9d26e1d20415ec8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3f43ed1703d94017b9d26e1d20415ec8" ></div>
+        
+</body>
+<script>    
+    
+            var map_3f43ed1703d94017b9d26e1d20415ec8 = L.map(
+                "map_3f43ed1703d94017b9d26e1d20415ec8",
+                {
+                    center: [49.783333, 9.933333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f29c4f4c18c34624950b7211d83896d2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+            var circle_marker_3b29debe7cdf4c3ebfd95a8dae96e64b = L.circleMarker(
+                [49.75, 6.63333],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_f53e9014c8054f129aec086f93215e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd2bc78d16764deebf69a7c3c35a2956 = $(`<div id="html_fd2bc78d16764deebf69a7c3c35a2956" style="width: 100.0%; height: 100.0%;"><strong>Christof Schöch, Evegnia Fileva, Julia Dudar</strong> (TCDH / Trier University): project partner.</div>`)[0];
+            popup_f53e9014c8054f129aec086f93215e0b.setContent(html_fd2bc78d16764deebf69a7c3c35a2956);
+        
+
+        circle_marker_3b29debe7cdf4c3ebfd95a8dae96e64b.bindPopup(popup_f53e9014c8054f129aec086f93215e0b)
+        ;
+
+        
+    
+    
+            circle_marker_3b29debe7cdf4c3ebfd95a8dae96e64b.bindTooltip(
+                `<div>
+                     Trier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e78b871fceae4578b136f672d8ed51a8 = L.circleMarker(
+                [52.391842, 13.063561],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_882eca7ee24948d69cd5db18a44ff8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f01f945eac004ccb8275b85050b85320 = $(`<div id="html_f01f945eac004ccb8275b85050b85320" style="width: 100.0%; height: 100.0%;"><strong>Peer Trilcke</strong> (Potsdam University): project partner.</div>`)[0];
+            popup_882eca7ee24948d69cd5db18a44ff8a8.setContent(html_f01f945eac004ccb8275b85050b85320);
+        
+
+        circle_marker_e78b871fceae4578b136f672d8ed51a8.bindPopup(popup_882eca7ee24948d69cd5db18a44ff8a8)
+        ;
+
+        
+    
+    
+            circle_marker_e78b871fceae4578b136f672d8ed51a8.bindTooltip(
+                `<div>
+                     Potsdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da3185e5d17e4dd2963b0d72097f5297 = L.circleMarker(
+                [52.524640000000005, 13.40514],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_5812b324f81f45158402783c09015760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc608500e76a4bf68bf6c50ff4b9bdc5 = $(`<div id="html_cc608500e76a4bf68bf6c50ff4b9bdc5" style="width: 100.0%; height: 100.0%;"><strong>Carolin Odebrecht</strong> (Humboldt University Berlin): project partner.</div>`)[0];
+            popup_5812b324f81f45158402783c09015760.setContent(html_cc608500e76a4bf68bf6c50ff4b9bdc5);
+        
+
+        circle_marker_da3185e5d17e4dd2963b0d72097f5297.bindPopup(popup_5812b324f81f45158402783c09015760)
+        ;
+
+        
+    
+    
+            circle_marker_da3185e5d17e4dd2963b0d72097f5297.bindTooltip(
+                `<div>
+                     Berlin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_42bca078fa004f4a9c66ffebbfab217d = L.circleMarker(
+                [45.76342, 4.834276999999999],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_5f1bca75a7e546808f135acf904eb1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83920c7747464a7ca08b21120567ae9d = $(`<div id="html_83920c7747464a7ca08b21120567ae9d" style="width: 100.0%; height: 100.0%;"><strong>Serge Heiden</strong> (École Nationale Supérieure): project partner.</div>`)[0];
+            popup_5f1bca75a7e546808f135acf904eb1b4.setContent(html_83920c7747464a7ca08b21120567ae9d);
+        
+
+        circle_marker_42bca078fa004f4a9c66ffebbfab217d.bindPopup(popup_5f1bca75a7e546808f135acf904eb1b4)
+        ;
+
+        
+    
+    
+            circle_marker_42bca078fa004f4a9c66ffebbfab217d.bindTooltip(
+                `<div>
+                     Lyon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eb174b3a42d94b719210a2c36cd86e8a = L.circleMarker(
+                [50.049683, 19.944544],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_4afc2d76f0d74b8e81a005eebd70045e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d7ac3f7f3fa48b4ae280649bdecb8ed = $(`<div id="html_4d7ac3f7f3fa48b4ae280649bdecb8ed" style="width: 100.0%; height: 100.0%;"><strong>Maciej Eder</strong> (Institute for Polish Language): project lead.</div>`)[0];
+            popup_4afc2d76f0d74b8e81a005eebd70045e.setContent(html_4d7ac3f7f3fa48b4ae280649bdecb8ed);
+        
+
+        circle_marker_eb174b3a42d94b719210a2c36cd86e8a.bindPopup(popup_4afc2d76f0d74b8e81a005eebd70045e)
+        ;
+
+        
+    
+    
+            circle_marker_eb174b3a42d94b719210a2c36cd86e8a.bindTooltip(
+                `<div>
+                     Kraków
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_311733f11abe4fd5973376c8553113a7 = L.circleMarker(
+                [40.416775, -3.70379],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_7289e4a1e81c47889d9f6032dd7773eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4504c9298a04fe5b5c27a8239b7c7aa = $(`<div id="html_d4504c9298a04fe5b5c27a8239b7c7aa" style="width: 100.0%; height: 100.0%;"><strong>Salvador Rio</strong> (UNED): project partner.</div>`)[0];
+            popup_7289e4a1e81c47889d9f6032dd7773eb.setContent(html_d4504c9298a04fe5b5c27a8239b7c7aa);
+        
+
+        circle_marker_311733f11abe4fd5973376c8553113a7.bindPopup(popup_7289e4a1e81c47889d9f6032dd7773eb)
+        ;
+
+        
+    
+    
+            circle_marker_311733f11abe4fd5973376c8553113a7.bindTooltip(
+                `<div>
+                     Madrid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7702ed8466d34caea33a9c03cbf59b60 = L.circleMarker(
+                [53.35014, -6.266155],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_348ccb400b9940c19aade475286a5695 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f926c6fe14f84cb193f1efe1f63793a4 = $(`<div id="html_f926c6fe14f84cb193f1efe1f63793a4" style="width: 100.0%; height: 100.0%;"><strong>Jennifer Edmond, Frank Fischer</strong> (Trinity College Dublin / DARIAH-EU): project partner.</div>`)[0];
+            popup_348ccb400b9940c19aade475286a5695.setContent(html_f926c6fe14f84cb193f1efe1f63793a4);
+        
+
+        circle_marker_7702ed8466d34caea33a9c03cbf59b60.bindPopup(popup_348ccb400b9940c19aade475286a5695)
+        ;
+
+        
+    
+    
+            circle_marker_7702ed8466d34caea33a9c03cbf59b60.bindTooltip(
+                `<div>
+                     Dublin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e79c1119996b40688a716808018197f1 = L.circleMarker(
+                [53.270962, -9.062691000000001],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_b6ea5a9b862c4081b7916ad7d7adf97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ffaf728a53949c58293697843e740c1 = $(`<div id="html_9ffaf728a53949c58293697843e740c1" style="width: 100.0%; height: 100.0%;"><strong>Justin Tonra</strong> (National University of Ireland): project partner.</div>`)[0];
+            popup_b6ea5a9b862c4081b7916ad7d7adf97c.setContent(html_9ffaf728a53949c58293697843e740c1);
+        
+
+        circle_marker_e79c1119996b40688a716808018197f1.bindPopup(popup_b6ea5a9b862c4081b7916ad7d7adf97c)
+        ;
+
+        
+    
+    
+            circle_marker_e79c1119996b40688a716808018197f1.bindTooltip(
+                `<div>
+                     Galway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dec55c2a52b34d89b606096f524a83bf = L.circleMarker(
+                [50.073658, 14.41854],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_0c40c01cfeb54da2bec754920440e1cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d0cc736ed14d72b77efeb2bfc946c6 = $(`<div id="html_c6d0cc736ed14d72b77efeb2bfc946c6" style="width: 100.0%; height: 100.0%;"><strong>Silvie Cinkova</strong> (Charles University): project partner.</div>`)[0];
+            popup_0c40c01cfeb54da2bec754920440e1cd.setContent(html_c6d0cc736ed14d72b77efeb2bfc946c6);
+        
+
+        circle_marker_dec55c2a52b34d89b606096f524a83bf.bindPopup(popup_0c40c01cfeb54da2bec754920440e1cd)
+        ;
+
+        
+    
+    
+            circle_marker_dec55c2a52b34d89b606096f524a83bf.bindTooltip(
+                `<div>
+                     Prague
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ff0e4af0af61412bb6f16a40b9316066 = L.circleMarker(
+                [44.787197, 20.457273],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_b0778192822a43e18ae7ecd3b197e0bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba078edc706b44b8bc8c5510317e218f = $(`<div id="html_ba078edc706b44b8bc8c5510317e218f" style="width: 100.0%; height: 100.0%;"><strong>Toma Tasovac</strong> (Belgrade Center for Digital Humanities): project partner.</div>`)[0];
+            popup_b0778192822a43e18ae7ecd3b197e0bf.setContent(html_ba078edc706b44b8bc8c5510317e218f);
+        
+
+        circle_marker_ff0e4af0af61412bb6f16a40b9316066.bindPopup(popup_b0778192822a43e18ae7ecd3b197e0bf)
+        ;
+
+        
+    
+    
+            circle_marker_ff0e4af0af61412bb6f16a40b9316066.bindTooltip(
+                `<div>
+                     Belgrade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee33dd20751d4cc49ff141ebce5ed214 = L.circleMarker(
+                [48.210033, 16.363449],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_51da128b43ce47d595d49e56ca97a289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_984852b7ecfb44eaa18d1fc7e24a1e89 = $(`<div id="html_984852b7ecfb44eaa18d1fc7e24a1e89" style="width: 100.0%; height: 100.0%;"><strong>Matej Durco</strong> (Österreichische Akademie der Wissenschaften): project partner.</div>`)[0];
+            popup_51da128b43ce47d595d49e56ca97a289.setContent(html_984852b7ecfb44eaa18d1fc7e24a1e89);
+        
+
+        circle_marker_ee33dd20751d4cc49ff141ebce5ed214.bindPopup(popup_51da128b43ce47d595d49e56ca97a289)
+        ;
+
+        
+    
+    
+            circle_marker_ee33dd20751d4cc49ff141ebce5ed214.bindTooltip(
+                `<div>
+                     Vienna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5d04cc2004db42ae93f54735e2ca009e = L.circleMarker(
+                [51.049999, 3.733333],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_c3d3fbdb4ac3493eb99b9d4a8b2923c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffa4dc8869594b118c4ecb353b3581de = $(`<div id="html_ffa4dc8869594b118c4ecb353b3581de" style="width: 100.0%; height: 100.0%;"><strong>Julie Birkholz, Sally Chambers</strong> (Ghent Center for Digital Humanities): project partner.</div>`)[0];
+            popup_c3d3fbdb4ac3493eb99b9d4a8b2923c1.setContent(html_ffa4dc8869594b118c4ecb353b3581de);
+        
+
+        circle_marker_5d04cc2004db42ae93f54735e2ca009e.bindPopup(popup_c3d3fbdb4ac3493eb99b9d4a8b2923c1)
+        ;
+
+        
+    
+    
+            circle_marker_5d04cc2004db42ae93f54735e2ca009e.bindTooltip(
+                `<div>
+                     Ghent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4bca8034b4844f5aae99632cdf6b672 = L.circleMarker(
+                [52.377956, 4.897069999999999],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_3f43ed1703d94017b9d26e1d20415ec8);
+        
+    
+        var popup_15ffc4e4dcaf40fd8bd1efa4c08d95ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41d79670e3fc476e82c7d86748a7c143 = $(`<div id="html_41d79670e3fc476e82c7d86748a7c143" style="width: 100.0%; height: 100.0%;"><strong>Karina van Dalen-Oskam</strong> (Royal Academy of Sciences (KNAW)): project partner.</div>`)[0];
+            popup_15ffc4e4dcaf40fd8bd1efa4c08d95ea.setContent(html_41d79670e3fc476e82c7d86748a7c143);
+        
+
+        circle_marker_e4bca8034b4844f5aae99632cdf6b672.bindPopup(popup_15ffc4e4dcaf40fd8bd1efa4c08d95ea)
+        ;
+
+        
+    
+    
+            circle_marker_e4bca8034b4844f5aae99632cdf6b672.bindTooltip(
+                `<div>
+                     Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
